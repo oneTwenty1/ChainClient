@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#F44336</color>
+    <color name="dark_red">#C3352B</color>
+    <color name="soothing_blue">#0083BF</color>
+    <color name="dark_blue">#005A8A</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primaryDark">#305CAE</color>
+    <color name="accent">#FF4081</color>
+    <color name="darkOrange">#FF8C00</color>
+    <color name="lightYellow">#FFFFE0</color>
+    <color name="lightGoldenrodYellow">#FAFAD2</color>
+    <color name="lightgoldenrodyellow">#FAFAD2</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="yellow_feed59">#FEED59</color>
+    <color name="blue_1e384c">#1e384c</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="lime">#00FF00</color>
+    <color name="orange">#FFA500</color>
+    <color name="orangeRed">#FF6800</color>
+    <color name="orangered">#FF6800</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="saddleBrown">#8B4513</color>
+    <color name="dimGray">#696969</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimGray1">#696969F0</color>
+    <color name="gray">#808080</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="darkGray">#595959</color>
+    <color name="darkgray">#595959</color>
+    <color name="buff">#ffbd8f</color>
+    <color name="transparent">#00000000</color>
+    <color name="football_transparent">#10000000</color>
+    <color name="btn_football_shape_green">#99CC00</color>
+    <color name="football_transparent1">#80696969</color>
+
+    <color name="football_yellow">#ffffede9</color>
+
+    <color name="grey_E5EFFE">#E5EFFE</color>
+    <color name="blue_2c8fd3">#2c8fd3</color>
+    <color name="green_E8F0F9">#E8F0F9</color>
+    <color name="grey_e6e6e6">#e6e6e6</color>
+    <color name="grey_817F80">#817F80</color>
+    <color name="brown_B1770B">#B1770B</color>
+    <color name="brown_F3E2C4">#F3E2C4</color>
+    <color name="brown_DBC395">#DBC395</color>
+    <color name="brown_FFDE9F">#FFDE9F</color>
+    <color name="brown_FFF3DD">#FFF3DD</color>
+    <color name="brown_915E0D">#915E0D</color>
+    <color name="brown_ffdeae">#ffdeae</color>
+    <color name="brown_f3efd6">#f3efd6</color>
+
+
+    <color name="grey_E3E2DD">#E3E2DD</color>
+    <color name="red_b80103">#b80103</color>
+    <color name="red_ffed3326">#ffed3326</color>
+
+
+    <color name="grey_ADACA7">#ADACA7</color>
+    <color name="grey_F2EFE8">#F2EFE8</color>
+    <color name="grey_FBFAF8">#FBFAF8</color>
+    <color name="orange_ff4b06">#ff4b06</color>
+    <color name="blue_01aefd">#01aefd</color>
+    <color name="blue_0360b7">#0360b7</color>
+    <color name="orange_9D3000">#9D3000</color>
+    <color name="orange_F86400">#F86400</color>
+    <color name="black_80">#80000000</color>
+    <color name="red_db5d20">#db5d20</color>
+    <color name="black_00">#00000000</color>
+    <color name="black_78">#78000000</color>
+    <color name="orange_FFDE00">#FFDE00</color>
+    <color name="orange_f4eed6">#f4eed6</color>
+    <color name="grey_e8ddc9">#e8ddc9</color>
+
+</resources>

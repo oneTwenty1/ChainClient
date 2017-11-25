@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cslc.chainclient.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/darkOrange"
+        android:layout_gravity="center"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/back_home"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/back"/>
+        <TextView
+            android:id="@+id/login_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightYellow"
+            android:text="@string/login_button"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="10dp"
+            android:padding="5dp"
+            android:text="@string/login_info"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/login_input_phoneno"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:textSize="15dp" />
+                <Button
+                    android:id="@+id/login_check_out"
+                    android:layout_toRightOf="@id/login_input_phoneno"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:text="@string/check_out"/>
+
+            </RelativeLayout>
+
+
+
+            <EditText
+                android:id="@+id/login_input_check_code"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:padding="5dp"/>
+
+            <EditText
+                android:id="@+id/login_input_owner_no"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start_coupon"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_coupon"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/law_info"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:textColor="@color/red"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

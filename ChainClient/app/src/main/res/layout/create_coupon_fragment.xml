@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="@string/start_time"
+                android:layout_weight="0.10" />
+
+            <EditText
+                android:id="@+id/start_time"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="0.33" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/start_time"
+                android:layout_weight="0.17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="@string/end_time"
+                android:layout_weight="0.10" />
+
+            <EditText
+                android:id="@+id/end_time"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/stop_time"
+                android:layout_weight="0.17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="@string/coupon_no"
+                android:layout_weight="0.41" />
+
+            <EditText
+                android:id="@+id/coupon_no"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/couponno"
+                android:layout_weight="0.17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="@string/coupon_money"
+                android:layout_weight="0.37" />
+
+            <EditText
+                android:id="@+id/coupon_money"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="0.33" />
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/couponmonney"
+                android:layout_weight="0.17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <Button
+                    android:layout_toRightOf="@+id/create_coupon_btn"
+                    android:id="@+id/cancel_btn"
+                    android:text="@string/cancel_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/create_coupon_btn"
+                    android:text="@string/create_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="97dp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

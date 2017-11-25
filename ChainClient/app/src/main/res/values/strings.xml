@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ChainClient</string>
+    <string name="question_text">
+        欢迎使用代金券演示客户端
+    </string>
+    <string name="true_button">TRUE</string>
+    <string name="false_button">FALSE</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="register_button">注册</string>
+    <string name="login_button">登录</string>
+    <string name="create_button">发放</string>
+    <string name="cancel_button">取消</string>
+    <string name="change_button">消费</string>
+    <string name="start_coupon">开始</string>
+    <string name="use_button">使用</string>
+    <string name="query_button">查询</string>
+    <string name="check_out">验证</string>
+    <string name="home_frame_text">代金券操作</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_time">开始时间：</string>
+    <string name="end_time">结束时间：</string>
+    <string name="valid_time">使用期限</string>
+    <string name="coupon_no">编号：</string>
+    <string name="coupon_money">金额：</string>
+    <string name="create_coupon">发券</string>
+    <string name="coupon_get_once">一键获取</string>
+
+    <string name="date_picker_title"></string>
+
+    <string name="login_info">为了方便您及时收到中奖信息的推送，请验证手机</string>
+
+    <string name="law_info">点击开始，即表示您同意《法律说明和隐私政策》</string>
+
+</resources>

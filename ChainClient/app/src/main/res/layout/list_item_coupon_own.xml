@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="120dp">
+    
+    <CheckBox
+        android:id="@+id/item_coupon_check_box_own"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="4dp"/>
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_coupon_check_box_own"
+        android:orientation="vertical"
+        android:id="@+id/item_coupon_info_own"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/item_coupon_no_own"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/coupon_no"/>
+        <TextView
+            android:id="@+id/item_coupon_money_own"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/coupon_money"/>
+        <TextView
+            android:id="@+id/item_coupon_valid_time_own"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/valid_time"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_toRightOf="@+id/item_coupon_info_own"
+        android:id="@+id/item_coupon_use_btn_own"
+        android:layout_marginTop="20dp"
+        android:background="@color/darkOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/use_button"/>
+    
+</RelativeLayout>
